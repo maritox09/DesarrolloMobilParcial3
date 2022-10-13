@@ -1,4 +1,4 @@
-package com.example.parcial3practico.MovieModel;
+package com.example.parcial3practico.MoviesMVP.MovieModel;
 
 public interface IMovieModel {
 

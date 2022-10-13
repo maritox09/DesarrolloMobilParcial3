@@ -6,5 +6,5 @@ import java.util.List;
 
 public class Respuesta {
     @SerializedName("movies")
-    public List<Book> movies;
+    public List<Movie> movies;
 }

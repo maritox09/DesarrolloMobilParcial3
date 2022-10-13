@@ -7,8 +7,15 @@
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/books_list"
+        android:id="@+id/movies_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/boton_extra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Extra"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

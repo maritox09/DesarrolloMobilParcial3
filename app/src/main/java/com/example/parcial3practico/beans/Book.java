@@ -6,10 +6,18 @@ public class Book {
 
     @SerializedName("title")
     public String mTitle;
-    @SerializedName("director")
-    public String mAuthor;
-    @SerializedName("posterUrl")
+    @SerializedName("imageURL")
     public String mImageUrl;
+    @SerializedName("author")
+    public String mAuthor;
 
+    public Book() {
+    }
+
+    public Book(String mTitle, String mImageUrl, String mAuthor) {
+        this.mTitle = mTitle;
+        this.mImageUrl = mImageUrl;
+        this.mAuthor = mAuthor;
+    }
 
 }

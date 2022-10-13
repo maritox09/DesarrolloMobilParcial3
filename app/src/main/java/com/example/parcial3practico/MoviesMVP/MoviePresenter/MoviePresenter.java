@@ -1,9 +1,9 @@
-package com.example.parcial3practico.MoviePresenter;
+package com.example.parcial3practico.MoviesMVP.MoviePresenter;
 
-import com.example.parcial3practico.MovieModel.IMovieModel;
-import com.example.parcial3practico.MovieModel.MovieModel;
-import com.example.parcial3practico.MovieView.IMovieView;
-import com.example.parcial3practico.beans.Book;
+import com.example.parcial3practico.MoviesMVP.MovieModel.IMovieModel;
+import com.example.parcial3practico.MoviesMVP.MovieModel.MovieModel;
+import com.example.parcial3practico.MoviesMVP.MovieView.IMovieView;
+import com.example.parcial3practico.beans.Movie;
 
 import java.util.List;
 
@@ -18,8 +18,8 @@ public class MoviePresenter implements IMoviePresenter{
     }
 
     @Override
-    public void OnMovieSucc(List<Book> mBooks) {
-        view.OnMovieSucc(mBooks);
+    public void OnMovieSucc(List<Movie> mMovies) {
+        view.OnMovieSucc(mMovies);
     }
 
     @Override
